@@ -18,7 +18,7 @@ const Signup = () => {
 
 
     return (
-        <div className='d-flex justify-content-center align-items-center my-5'>
+        <div className='d-flex justify-content-center align-items-center mb-5 mt-120'>
             <div className="box-1">
                 <h1 className='mb-4 text-center text-white'>Technician <span className='icon-color'>Sign</span> Up</h1>
                 <Formik
@@ -37,7 +37,7 @@ const Signup = () => {
                                 history.push('/technician-login')
                             })
                             .catch((error) => {
-                                console.log(error.response.data.message);
+                                alert(error.response.data.message);
                             })
                     }}
                 >

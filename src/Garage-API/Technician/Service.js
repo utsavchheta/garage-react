@@ -46,7 +46,7 @@ const Service = () => {
 
 
     return (
-        <div className='d-flex justify-content-center align-items-center my-5'>
+        <div className='d-flex justify-content-center align-items-center mb-5 mt-120'>
             <div className="box-1">
                 <h1 className='text-white'>Service page  </h1>
                 <Formik

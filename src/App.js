@@ -28,6 +28,7 @@ import Footer from './Garage-API/Footer';
 import About from './Garage-API/About';
 import Tprotect from './Garage-API/protector/Tprotect';
 import Protect from './Garage-API/protector/Protect';
+import Contact from './Garage-API/Contact';
 
 function App() {
 
@@ -98,6 +99,10 @@ function App() {
 
           <Route path="/about-us">
             <About></About>
+          </Route>
+
+          <Route path="/contact">
+            <Contact></Contact>
           </Route>
 
         </Switch>

@@ -40,7 +40,7 @@ const Vehical = () => {
                                 history.push('/appoinment')
                             })
                             .catch((error) => {
-                                console.log(error.response.data.message);
+                                alert(error.response.data.message);
                             })
                     }}
                 >

@@ -45,6 +45,9 @@ const Header = () => {
                         <Nav.Item>
                           <Nav.Link className='hov fw-bold text-white ps-5 fs-5' href="/customer-login">Customer</Nav.Link>
                         </Nav.Item>
+                        <Nav.Item>
+                          <Nav.Link className='hov fw-bold text-white ps-5 fs-5' href="/contact">Contact</Nav.Link>
+                        </Nav.Item>
                       </Nav>
                     </Navbar.Collapse>
                   </Container>
@@ -78,6 +81,10 @@ const Header = () => {
 
           </Row>
         </Container>
+      </Container>
+
+      <Container>
+        <Row className='mb-5'></Row>
       </Container>
     </div>
   )
