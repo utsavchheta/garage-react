@@ -29,7 +29,7 @@ const Invoice = () => {
           }}
           validationSchema={Invoiceschema}
           onSubmit={async (values) => {
-            axios.post('https://garage-api-a1av.onrender.com/invoice/create', values,
+            axios.post('https://garagebackend.onrender.com/invoice/create', values,
             {
               headers: { appointmenttoken : appointmenttoken}
             })

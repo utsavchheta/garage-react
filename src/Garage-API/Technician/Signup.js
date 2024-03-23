@@ -31,7 +31,7 @@ const Signup = () => {
                     }}
                     validationSchema={Signupschema}
                     onSubmit={async (values) => {
-                        axios.post('https://garage-api-a1av.onrender.com/technician/signup', values)
+                        axios.post('https://garagebackend.onrender.com/technician/signup', values)
                             .then((res) => {
                                 console.log(res.data.data);
                                 history.push('/technician-login')

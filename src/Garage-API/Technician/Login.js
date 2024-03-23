@@ -29,7 +29,7 @@ const Login = () => {
                     }}
                     validationSchema={Loginschema}
                     onSubmit={async (values) => {
-                        axios.post('https://garage-api-a1av.onrender.com/technician/login', values)
+                        axios.post('https://garagebackend.onrender.com/technician/login', values)
                             .then((res) => {
                                 console.log(res.data);
                                 localStorage.setItem('techniciantoken', res.data.token)
