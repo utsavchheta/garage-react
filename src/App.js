@@ -54,9 +54,9 @@ function App() {
           </Route>
 
           <Route path="/technician-login">
-            <Tprotect>
+          
               <Login></Login>
-            </Tprotect>
+            
           </Route>
 
           {/* serivce page */}
@@ -73,9 +73,7 @@ function App() {
           </Route>
 
           <Route path="/customer-login">
-            <Cprotect>
               <Clogin></Clogin>
-            </Cprotect>
           </Route>
 
 
