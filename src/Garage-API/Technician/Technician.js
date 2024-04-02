@@ -39,7 +39,7 @@ const Technician = () => {
               <Link to="/service" className="service fw-bold">Add service..!</Link>
             </div>
             <div className="col-6 p-0">
-              <img  width="100%" src="https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoidGFydW5tb3RvcnMuY29tIiwidiI6NDAyNDQ4MDMzNiwiaSI6IjI4ZWY3NjNlLTVlYWQtNDUyOC01NTNkLTE5NjRmMjUyODYwMCJ9/wp-content/uploads/elementor/thumbs/Engine-brake-and-transmission-experts-q2ru83jqdzlhto2t43ni8azezp0rwen73rk99g7qe0.jpg" alt="" />
+              <img  width="100%" src="https://cfw.rabbitloader.xyz/eyJjIjp0cnVlLCJoIjoidGFydW5tb3RvcnMuY29tIiwidiI6NDAyNDQ4MDMzNiwiaSI6IjI4ZWY3NjNlLTVlYWQtNDUyOC01NTNkLTE5NjRmMjUyODYwMCJ9/wp-content/uploads/el ementor/thumbs/Engine-brake-and-transmission-experts-q2ru83jqdzlhto2t43ni8azezp0rwen73rk99g7qe0.jpg" alt="" />
             </div>
           </div>
         </div>
