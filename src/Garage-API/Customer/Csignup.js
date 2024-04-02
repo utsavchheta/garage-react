@@ -33,7 +33,7 @@ const Csignup = () => {
                     }}
                     validationSchema={Signupschema}
                     onSubmit={async (values) => {
-                        axios.post('https://garagebackend.onrender.com/customer/signup', values)
+                        axios.post('https://garage-backend-uvd6.onrender.com/customer/signup', values)
                             .then((res) => {
                                 console.log(res.data.data);
                                 history.push('/customer-login')

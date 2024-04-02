@@ -28,7 +28,7 @@ const Home = () => {
   }, [])
 
   const getService = () => {
-    axios.get('https://garagebackend.onrender.com/service/find')
+    axios.get('https://garage-backend-uvd6.onrender.com/service/find')
       .then((res) => {
         console.log(res.data.data);
         setService(res.data.data)
@@ -117,7 +117,7 @@ const Home = () => {
             {
               service.map((el, index) => {
                 return <Card style={{ width: '363px' }} key={index} onClick={card} className='p-0 box pos-rel '>
-                  <div className="img-box border-bottom"><Card.Img variant="top" className='p-0' src={'https://garagebackend.onrender.com/images/' + el.image} /></div>
+                  <div className="img-box border-bottom"><Card.Img variant="top" className='p-0' src={'https://garage-backend-uvd6.onrender.com/images/' + el.image} /></div>
                   <Card.Body>
                     <div className='icon-color'><Card.Title className='pt-1 mb-2 fw-bold  text-uppercase' >{el.serviceName}</Card.Title></div>
                     <p className='pt-1  mb-2 fs-18 text-color'>{el.decription}</p>
@@ -142,7 +142,7 @@ const Home = () => {
                     return <div className='col-4'>
 
                       <Card style={{ width: '363px' }} key={index} onClick={card} className='p-0 box pos-rel '>
-                        <div className="img-box border-bottom"><Card.Img variant="top" className='p-0' src={'https://garagebackend.onrender.com/images/' + el.image} /></div>
+                        <div className="img-box border-bottom"><Card.Img variant="top" className='p-0' src={'https://garage-backend-uvd6.onrender.com/images/' + el.image} /></div>
                         <Card.Body>
                           <div className='icon-color'><Card.Title className='pt-1 mb-2 fw-bold  text-uppercase' >{el.serviceName}</Card.Title></div>
                           <p className='pt-1  mb-2 fs-18 text-color'>{el.decription}</p>
@@ -276,7 +276,7 @@ export default Home
 
                   <div className=" text-dark pos-rel">
                     <div className="card-icon rounded-circle"><RiServiceFill className='icon-color fs-2' /></div>
-                    <div className="img-box"><img className='w-100' src={'https://garagebackend.onrender.com/images/' + el.image} alt="" /></div>
+                    <div className="img-box"><img className='w-100' src={'https://garage-backend-uvd6.onrender.com/images/' + el.image} alt="" /></div>
                     <div className='p-3'>
                       <h4 className='pt-1 fs-6 mb-0 fw-bold icon-color' >{el.serviceName}</h4>
                       <p className='pt-1  mb-0 fs-18'>{el.decription}</p>

@@ -29,7 +29,7 @@ const Appointment = () => {
                     }}
                     validationSchema={appoinmentschema}
                     onSubmit={async (values) => {
-                        axios.post('https://garagebackend.onrender.com/appointment/create', values,
+                        axios.post('https://garage-backend-uvd6.onrender.com/appointment/create', values,
                             {
                                 headers: {
                                      customertoken: customertoken,
